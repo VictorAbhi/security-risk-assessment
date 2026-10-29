@@ -46,7 +46,7 @@ User information was identified through publicly accessible product reviews with
 The review information exposed the user's email address.
 
 **Evidence:**  
-E-01 --> ![description](evidence/email_evidence.png)
+E-01 --> !(evidence/email_evidence.png)
 ---
 
 ### Step 2 — Initiating Password Recovery
@@ -56,7 +56,7 @@ The discovered email address was submitted to the application's **Forgot Passwor
 The application proceeded with the recovery process for the identified account.
 
 **Evidence:**  
-E-02 --> ![description](evidence/evidence_2.png)
+E-02 --> !(evidence/evidence_2.png)
 
 ---
 
@@ -67,7 +67,7 @@ The security-question answer associated with the target account was identified u
 The answer was sufficiently predictable/discoverable that an attacker did not need access to the victim's existing password.
 
 **Evidence:**  
-E-03 --> ![description](https://x.com/bkimminich/status/1441659996589207555?lang=en)
+E-03 --> !(https://x.com/bkimminich/status/1441659996589207555?lang=en)
 ---
 
 ### Step 4 — Completing Password Recovery and Account Takeover
@@ -77,7 +77,7 @@ The discovered security-question answer was submitted to the password recovery m
 The recovery process accepted the answer and allowed the account password to be changed and takeover the account.
 
 **Evidence:**  
-E-04 --> ![description](evidence/evidence_1.png)
+E-04 --> !(evidence/evidence_1.png)
 
 ---
 
