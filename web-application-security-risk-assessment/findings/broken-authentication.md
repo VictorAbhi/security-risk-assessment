@@ -46,7 +46,7 @@ User information was identified through publicly accessible product reviews with
 The review information exposed the user's email address.
 
 **Evidence:**  
-
+E-01 --> ![description](evidence/email_evidence.png)
 ---
 
 ### Step 2 — Initiating Password Recovery
@@ -56,42 +56,28 @@ The discovered email address was submitted to the application's **Forgot Passwor
 The application proceeded with the recovery process for the identified account.
 
 **Evidence:**  
-`[Insert Screenshot — password recovery using discovered email address]`
+E-02 --> ![description](evidence/evidence_2.png)
 
 ---
 
 ### Step 3 — Obtaining the Security Question Answer Through OSINT
 
-The security-question answer associated with the target account was identified using publicly available information obtained through OSINT.
+The security-question answer associated with the target account was identified using publicly available information obtained through OSINT in one of the popular social media sites.
 
 The answer was sufficiently predictable/discoverable that an attacker did not need access to the victim's existing password.
 
 **Evidence:**  
-`[Insert Screenshot — OSINT source revealing the security-question answer]`
-
-> Sensitive information from the OSINT source should be redacted where appropriate in the published report.
-
+E-03 --> ![description](https://x.com/bkimminich/status/1441659996589207555?lang=en)
 ---
 
-### Step 4 — Completing Password Recovery
+### Step 4 — Completing Password Recovery and Account Takeover
 
 The discovered security-question answer was submitted to the password recovery mechanism.
 
-The recovery process accepted the answer and allowed the account password to be changed.
+The recovery process accepted the answer and allowed the account password to be changed and takeover the account.
 
 **Evidence:**  
-`[Insert Screenshot — successful password reset]`
-
----
-
-### Step 5 — Account Takeover
-
-The newly established password was used to authenticate to the victim's account.
-
-This confirmed that the password recovery weakness could be used to achieve **full account takeover**.
-
-**Evidence:**  
-`[Insert Screenshot — successful authentication to the compromised account]`
+E-04 --> ![description](evidence/evidence_1.png)
 
 ---
 
@@ -279,4 +265,5 @@ The effectiveness of these controls should be validated through a follow-up secu
 |---|---|
 | E-01 | User email address identified through publicly accessible application information |
 | E-02 | Email address submitted to the password recovery functionality |
-| E-03 | Security-question answer obtained through OSINT
+| E-03 | Security-question answer obtained through OSINT |
+| E-04 | Success in taking over the account
